@@ -1,39 +1,33 @@
-require "bundler/capistrano"
-set :application, "biolab_project"
+require 'bundler/capistrano'
+set :user, 'localadmin'
+set :domain, 'biomedlab.uni.lu'
+set :applicationdir, "www"
 
-set :rvm_ruby_string, "ruby-1.9.3-p194"
-require "rvm/capistrano"
-set :rvm_type, :user
-set :rvm_install_ruby, :install
-set :repository,  "https://github.com/tushis/biolab_project.git"
-set :scm, :git
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-role :web, "10.79.5.9"       # Your HTTP server, Apache/etc
-role :app, "10.79.5.9"       # This may be the same as your  `Web` server
-role :db,  "10.79.5.9", :primary => true # This is where Rails migrations will run
+set :scm, 'git'
+set :repository,  "ssh://git@github.com:tushis/biolab_project.git"
+set :git_enable_submodules, 1 # if you have vendored rails
+set :branch, 'master'
+set :git_shallow_clone, 1
+set :scm_verbose, true
 
-default_run_options[:pty] = true
-ssh_options[:forward_agent] = true
-set :deploy_to, "/localadmin/www/"
-set :deploy_via, :remote_cache
-set :user, "localadmin"
-set :password, "45qd78k"
-set :keep_releases, 5
-before 'deploy:setup', 'rvm:install_ruby'
+# roles (servers)
+role :web, domain
+role :app, domain
+role :db,  domain, :primary => true
 
-ssh_options[:forward_agent] = true
-# tasks
+# deploy config
+set :deploy_to, applicationdir
+set :deploy_via, :export
+
+# additional settings
+default_run_options[:pty] = true  # Forgo errors when deploying from windows
+#ssh_options[:keys] = %w(/home/user/.ssh/id_rsa)            # If you are using ssh_keysset :chmod755, "app config db lib public vendor script script/* public/disp*"set :use_sudo, false
+
+# Passenger
 namespace :deploy do
-  task :start, :roles => :app do
-    run "touch #{current_path}/tmp/restart.txt"
-  end
-  task :stop, :roles => :app do
-    # Do nothing.
-  end
-
-  desc "Restart Application"
-  task :restart, :roles => :app do
-    run "touch #{current_path}/tmp/restart.txt"
+  task :start do ; end
+  task :stop do ; end
+  task :restart, :roles => :app, :except => { :no_release => true } do
+    run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
   end
 end
-
