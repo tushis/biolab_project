@@ -1,7 +1,7 @@
 require "bundler/capistrano"
 set :application, "biolab_project"
 
-set :rvm_ruby_string, "ruby-1.9.3-p194@biolab_project"
+set :rvm_ruby_string, "ruby-1.9.3-p194"
 require "rvm/capistrano"
 set :rvm_type, :user
 set :rvm_install_ruby, :install
@@ -14,7 +14,7 @@ role :db,  "10.79.5.9", :primary => true # This is where Rails migrations will r
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
-set :deploy_to, "/www/biolab_project/"
+set :deploy_to, "/localadmin/www/"
 set :deploy_via, :remote_cache
 set :user, "localadmin"
 set :password, "45qd78k"
