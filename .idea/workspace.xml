@@ -24,7 +24,7 @@
     <file path="/jquery.dataTables.css" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364936378586" ignored="false" />
     <file path="/database.yml" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365013450834" ignored="false" />
     <file path="/production.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365088064876" ignored="false" />
-    <file path="/deploy.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365092457078" ignored="false" />
+    <file path="/deploy.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365093255446" ignored="false" />
     <file path="/staging.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365088082236" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="67" selection-start="262" selection-end="262" vertical-scroll-proportion="0.14337349">
+            <state line="14" column="42" selection-start="623" selection-end="623" vertical-scroll-proportion="0.28674698">
               <folding />
             </state>
           </provider>
@@ -728,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="67" selection-start="262" selection-end="262" vertical-scroll-proportion="0.14337349">
+        <state line="14" column="42" selection-start="623" selection-end="623" vertical-scroll-proportion="0.28674698">
           <folding />
         </state>
       </provider>

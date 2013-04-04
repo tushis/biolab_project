@@ -8,9 +8,9 @@ set :rvm_install_ruby, :install
 set :repository,  "https://github.com/tushis/biolab_project.git"
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-role :web, "biomedlab.uni.lu"       # Your HTTP server, Apache/etc
-role :app, "biomedlab.uni.lu"       # This may be the same as your  `Web` server
-role :db,  "biomedlab.uni.lu", :primary => true # This is where Rails migrations will run
+role :web, "10.79.5.9"       # Your HTTP server, Apache/etc
+role :app, "10.79.5.9"       # This may be the same as your  `Web` server
+role :db,  "10.79.5.9", :primary => true # This is where Rails migrations will run
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
