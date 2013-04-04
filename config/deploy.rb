@@ -1,9 +1,15 @@
+require 'capistrano/ext/multistage'
+
 set :application, 'biolab_project'
 
-set :scm, :subversion
-set :repository, "https://www.asuswebstorage.com/navigate/s/04847D7182D744ED9E4CB510E50492E64"
+set :scm, :git
+set :repository, "https://github.com/tushis/biolab_project.git"
 
-set :user, "root"
+set :user, "localadmin"
+
+set :stages, ["staging", "production"]
+
+set :default_stage, "staging"
 
 
-
+ssh_options[:forward_agent] = true
