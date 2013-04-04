@@ -1,0 +1,74 @@
+# == Schema Information
+#
+# Table name: treg_oris
+#
+#  id              :integer          not null, primary key
+#  gene_matched_id :integer
+#  t0              :decimal(, )
+#  t20             :decimal(, )
+#  t40             :decimal(, )
+#  t60             :decimal(, )
+#  t80             :decimal(, )
+#  t100            :decimal(, )
+#  t120            :decimal(, )
+#  t140            :decimal(, )
+#  t160            :decimal(, )
+#  t180            :decimal(, )
+#  t200            :decimal(, )
+#  t220            :decimal(, )
+#  t240            :decimal(, )
+#  t260            :decimal(, )
+#  t280            :decimal(, )
+#  t300            :decimal(, )
+#  t320            :decimal(, )
+#  t340            :decimal(, )
+#  t360            :decimal(, )
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  gene_matched_id: 1
+  t0: 9.99
+  t20: 9.99
+  t40: 9.99
+  t60: 9.99
+  t80: 9.99
+  t100: 9.99
+  t120: 9.99
+  t140: 9.99
+  t160: 9.99
+  t180: 9.99
+  t200: 9.99
+  t220: 9.99
+  t240: 9.99
+  t260: 9.99
+  t280: 9.99
+  t300: 9.99
+  t320: 9.99
+  t340: 9.99
+  t360: 9.99
+
+two:
+  gene_matched_id: 1
+  t0: 9.99
+  t20: 9.99
+  t40: 9.99
+  t60: 9.99
+  t80: 9.99
+  t100: 9.99
+  t120: 9.99
+  t140: 9.99
+  t160: 9.99
+  t180: 9.99
+  t200: 9.99
+  t220: 9.99
+  t240: 9.99
+  t260: 9.99
+  t280: 9.99
+  t300: 9.99
+  t320: 9.99
+  t340: 9.99
+  t360: 9.99
