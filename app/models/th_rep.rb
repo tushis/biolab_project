@@ -27,5 +27,6 @@
 #  updated_at      :datetime         not null
 #
 
-class ThRep < ActiveRecord::Base
+class ThRep < DbBase
+ self.table_name = 'th_reps'
 end

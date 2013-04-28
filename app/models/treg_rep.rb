@@ -27,5 +27,6 @@
 #  updated_at      :datetime         not null
 #
 
-class TregRep < ActiveRecord::Base
+class TregRep < DbBase
+ self.table_name = 'treg_reps'
 end

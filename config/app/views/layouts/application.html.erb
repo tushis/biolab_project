@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LCSB - Luxembourg Centre for Systems Biomedicine</title>
+  <%= stylesheet_link_tag    "application", :stylesheets => "all" %>
+  <%= csrf_meta_tag %>
+  <%= javascript_include_tag "application"%>
+
+</head>
+<body>
+<div id="all">
+    <div id="wrap">
+        <div id="content" >
+            <div id="header">
+                <%=image_tag('header.png')%>
+             </div>
+            <div id="tables_content">
+             <%= yield %>
+            </div>
+        </div>
+
+     <div id="footer">
+        <div class="footer1"></div>
+       <div class="footer2"></div>
+     </div>
+    </div>
+</div>
+
+</body>
+</html>

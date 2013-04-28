@@ -11,6 +11,6 @@
 #  updated_at      :datetime         not null
 #
 
-class Gene < ActiveRecord::Base
-
+class Gene <DbBase
+ self.table_name = 'genes'
 end

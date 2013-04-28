@@ -27,5 +27,6 @@
 #  updated_at      :datetime         not null
 #
 
-class TregOri < ActiveRecord::Base
+class TregOri < DbBase
+ self.table_name = 'treg_oris'
 end

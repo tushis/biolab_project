@@ -27,5 +27,6 @@
 #  updated_at      :datetime         not null
 #
 
-class ThOri < ActiveRecord::Base
+class ThOri < DbBase
+ self.table_name = 'th_oris'
 end

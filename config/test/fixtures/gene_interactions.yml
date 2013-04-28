@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: gene_interactions
+#
+#  id         :integer          not null, primary key
+#  geneId1    :integer
+#  geneId2    :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  geneId1: 1
+  geneId2: 1
+
+two:
+  geneId1: 1
+  geneId2: 1

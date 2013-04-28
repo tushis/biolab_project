@@ -9,5 +9,6 @@
 #  updated_at :datetime         not null
 #
 
-class GeneInteraction < ActiveRecord::Base
+class GeneInteraction <DbBase
+ self.table_name = 'gene_interactions'
 end
