@@ -28,7 +28,7 @@
     <file path="/staging.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365088082236" ignored="false" />
     <file path="/environment.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366727368360" ignored="false" />
     <file path="/_treg.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365163510285" ignored="false" />
-    <file path="/application.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366191561117" ignored="false" />
+    <file path="/application.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367227708646" ignored="false" />
     <file path="/db_base.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366971384182" ignored="false" />
     <file path="/20121227223931_create_genes.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366716682453" ignored="false" />
     <file path="/20121227224650_create_gene_interactions.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366716750224" ignored="false" />
@@ -69,15 +69,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20121227232405_create_th_oris.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20121227232405_create_th_oris.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,34 +81,25 @@
       <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="29" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.11985899">
+            <state line="6" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="82" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="50" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0">
+            <state line="54" column="36" selection-start="2568" selection-end="2597" vertical-scroll-proportion="0.80023503">
               <folding />
             </state>
           </provider>
@@ -164,8 +146,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20121227232405_create_th_oris.rb" />
         <option value="$PROJECT_DIR$/config/Gemfile" />
         <option value="$PROJECT_DIR$/Capfile" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -750,34 +732,6 @@
         <state line="15" column="5" selection-start="371" selection-end="371" vertical-scroll-proportion="0.29964748" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="82" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="50" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="74" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
@@ -792,16 +746,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="82" selection-start="943" selection-end="943" vertical-scroll-proportion="0.880141">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="29" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.11985899">
+        <state line="6" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="49" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="2568" selection-end="2597" vertical-scroll-proportion="0.80023503">
           <folding />
         </state>
       </provider>
