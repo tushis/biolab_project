@@ -36,7 +36,7 @@
     <file path="/20121227231124_create_treg_reps.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366716796010" ignored="false" />
     <file path="/20121227232405_create_th_oris.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367171211980" ignored="false" />
     <file path="/20121227233030_create_th_reps.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1366716822459" ignored="false" />
-    <file path="/Capfile" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367228303661" ignored="false" />
+    <file path="/Capfile" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367228385975" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Capfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Capfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="43" selection-start="238" selection-end="238" vertical-scroll-proportion="0.09988249">
+            <state line="5" column="35" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="60" selection-start="1540" selection-end="1555" vertical-scroll-proportion="0.0">
+            <state line="60" column="76" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.70035255">
               <folding />
             </state>
           </provider>
@@ -752,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="60" selection-start="1540" selection-end="1555" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="29" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
@@ -782,7 +775,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="238" selection-end="238" vertical-scroll-proportion="0.09988249">
+        <state line="5" column="35" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="76" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.70035255">
           <folding />
         </state>
       </provider>
