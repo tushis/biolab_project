@@ -31,8 +31,9 @@
     </data-source>
     <data-source source="LOCAL" name="Rails biolab_project: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="9412b82c-505d-48e7-9ecf-4269db29e011">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://10.79.5.9:5432/biolab_db</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5433/biolab_production</jdbc-url>
       <user-name>postgres</user-name>
+      <user-password>dfdedfcfdfd9dfde</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/postgresql-driver-license.txt</url>
