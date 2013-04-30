@@ -27,6 +27,7 @@
 #  updated_at      :datetime         not null
 #
 
-class TregOri < DbBase
+class TregOri < ActiveRecord::Base
+  establish_connection "biolab_#{Rails.env}"
  self.table_name = 'treg_oris'
 end

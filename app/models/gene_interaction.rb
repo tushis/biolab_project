@@ -9,6 +9,7 @@
 #  updated_at :datetime         not null
 #
 
-class GeneInteraction <DbBase
+class GeneInteraction <ActiveRecord::Base
+  establish_connection "biolab_#{Rails.env}"
  self.table_name = 'gene_interactions'
 end

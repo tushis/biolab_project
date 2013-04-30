@@ -11,6 +11,7 @@
 #  updated_at      :datetime         not null
 #
 
-class Gene <DbBase
+class Gene < ActiveRecord::Base
+  establish_connection "biolab_#{Rails.env}"
  self.table_name = 'genes'
 end

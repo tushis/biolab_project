@@ -27,6 +27,7 @@
 #  updated_at      :datetime         not null
 #
 
-class TregRep < DbBase
+class TregRep < ActiveRecord::Base
+  establish_connection "biolab_#{Rails.env}"
  self.table_name = 'treg_reps'
 end
