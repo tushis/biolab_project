@@ -38,9 +38,9 @@ production:
 
   biolab_production:
       adapter: postgresql
-      host: 10.79.5.9,
+      host: 10.79.5.9
       #:port => "8022",
-      username: postgres,
-      database: biolab_db,
-      password: "",
+      username: postgres
+      database: biolab_db
+      password: ""
       encoding: utf8
