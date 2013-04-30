@@ -4,7 +4,7 @@ gem 'rails', '3.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'pg', '0.15.1'
 
 group :development do
   gem 'annotate', '2.5.0'
@@ -12,7 +12,7 @@ end
 
 group :production do
   # gems specifically for server go here
-  gem "pg"
+  gem "pg",'0.15.1'
   gem 'activerecord-postgresql-adapter'
 
 
