@@ -4,14 +4,14 @@
     <list default="true" id="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" name="Default" comment="" />
     <ignored path="biolab_project.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367313919465" ignored="false" />
+    <file path="/Dummy.txt" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367316767639" ignored="false" />
     <file path="/a.rxml" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1363899477951" ignored="false" />
     <file path="/a.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1363899483465" ignored="false" />
     <file path="/index.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364894638087" ignored="false" />
     <file path="/jquery-ui.css" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1365013062310" ignored="false" />
     <file path="/genes_controller.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364836873057" ignored="false" />
     <file path="/application.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364927628786" ignored="false" />
-    <file path="/routes.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364296344071" ignored="false" />
+    <file path="/routes.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367316874660" ignored="false" />
     <file path="/_network.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364324721269" ignored="false" />
     <file path="/_gene.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364937294706" ignored="false" />
     <file path="/3.11.8'" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364828733224" ignored="false" />
@@ -63,44 +63,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20121227232405_create_th_oris.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20121227232405_create_th_oris.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="6" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gene_interaction_repository.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repository/gene_interaction_repository.rb">
+      <file leaf-file-name="20121227233030_create_th_reps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20121227233030_create_th_reps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -108,8 +72,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="treg_rep.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/treg_rep.rb">
+      <file leaf-file-name="db_base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/db_base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="111" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="23" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.8152174">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gene_network.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/gene_network.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -126,8 +108,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gene_network.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/gene_network.rb">
+      <file leaf-file-name="treg_rep.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/treg_rep.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -135,19 +117,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_base.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/db_base.rb">
+      <file leaf-file-name="gene_interaction_repository.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Repository/gene_interaction_repository.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="135" selection-end="135" vertical-scroll-proportion="0.082125604">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20121227233030_create_th_reps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20121227233030_create_th_reps.rb">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="45" column="6" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="44" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="31" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/th_ori.rb" />
         <option value="$PROJECT_DIR$/app/models/th_rep.rb" />
         <option value="$PROJECT_DIR$/app/models/treg_ori.rb" />
         <option value="$PROJECT_DIR$/app/models/treg_rep.rb" />
@@ -187,6 +186,7 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/lib/db_base.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -222,8 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,21 +298,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="115" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="154" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/biolab_project" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="119" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="806" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="119" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="799" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="806" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="132" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="130" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -558,7 +558,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291959" sideWeight="0.6713615" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.285483" sideWeight="0.98293966" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.288721" sideWeight="0.98293966" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -637,11 +637,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="158" selection-end="182" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="36" selection-start="2568" selection-end="2597" vertical-scroll-proportion="0.0" />
@@ -732,7 +727,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/db_base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="135" selection-end="135" vertical-scroll-proportion="0.082125604">
+        <state line="4" column="111" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="23" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.8152174">
           <folding />
         </state>
       </provider>
