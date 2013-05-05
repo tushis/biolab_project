@@ -111,7 +111,7 @@ DEPENDENCIES
   annotate (= 2.5.0)
   coffee-rails (~> 3.2.1)
   jquery-rails
-  pg (= 0.15.1)
+  pg
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
