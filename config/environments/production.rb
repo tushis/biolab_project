@@ -15,6 +15,7 @@ BiolabProject::Application.configure do
   config.assets.compress = true
 
   config.assets.initialize_on_precompile = false
+  config.assets.precompile += %w( *.css *.js )
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
