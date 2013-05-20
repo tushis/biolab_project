@@ -13,7 +13,7 @@ end
 group :production do
   # gems specifically for server go here
   gem "pg"
-  gem 'activerecord-postgresql-adapter'
+  #gem 'activerecord-postgresql-adapter'
 
 
 end
