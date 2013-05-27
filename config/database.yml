@@ -16,8 +16,8 @@ production:
 
 development:
   adapter: postgresql
-  database: biolab_db
-  host: 10.79.5.9
+  database: biolab_development #biolab_db
+  host: localhost #10.79.5.9
   username: postgres
   password: pgresbiolab
   port: 5432

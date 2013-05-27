@@ -28,10 +28,10 @@ div#header {
 }
 
 div#content {
-    background-color: #FFFFFF;
+   background-color: #FFFFFF;
     margin: 0;
-    overflow: auto;
-    padding: 30px 10px 303px;
+    overflow:auto;
+    padding: 10px;
     width: 970px;
 }
 
@@ -39,13 +39,24 @@ div#tables_content{
     margin: 10px;
 }
 
+div#chart{
+    background-color: #FFFFFF;
+    margin: 0;
+    overflow:auto;
+    padding: 10px;
+    width: 970px;
+}
+
 div#footer {
-    background-color: #005A77;
+     background-color: #005A77;
     clear: both;
     height: 273px;
     /*margin-top: -273px;*/
     position: relative;
     width: 970px;
+    margin: 0;
+    overflow:auto;
+    padding: 10px;
 }
 
 div#footer div.footer1 {
@@ -54,5 +65,5 @@ div#footer div.footer1 {
     color: #BFD8E0;
     height: 213px;
     padding: 20px 0 0;
-    width: 980px;
+    width: 970px;
 }

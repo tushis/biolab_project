@@ -2,37 +2,21 @@
 
     $(document).ready( function (event,ui) {
         $('#gene_index_tbl').dataTable( {
-            "sDom": "T<'clear'><'H'lfr>t<'F'ip>",
             "bFilter": false,
             "bPaginate": false,
             "bSortable": false,
-            "bJQueryUI": true,
-            "oTableTools": {
-               "sSwfPath": '/assets/javascripts/DataTables-1.9.4/extras/TableTools/media/swf/copy_csv_xls_pdf.swf',
-                "aButtons": [
-                    {
-                        "sExtends": "xls",
-                        "sButtonText": "Save as Excel"
-                    },
-                    {
-                        "sExtends": "pdf",
-                        "sButtonText": "Save as PDF"
-                    }
-                      ]
-           }
+            "bJQueryUI": true
         } );
-
-
-
     } );
 
 </script>
 
-
+ <div>
+   <h2>The gene of interest</h2>
     <table id="gene_index_tbl" class="display">
       <thead>
       <tr>
-        <th>ID</th>
+        <th>Entrez ID</th>
         <th>Symbol</th>
         <th>Title</th>
       </tr>
@@ -50,4 +34,3 @@
 
 
 </div>
-

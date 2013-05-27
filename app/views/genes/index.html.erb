@@ -67,13 +67,19 @@
     });
 </script>
 
-<p></p>
+<p>
+  <h3>Welcome to the online Treg correlation network</h3>
+<font size="2"> In this website, you can analyze the subnetworks of the individual genes you are interested in.
+</br>You can also directly observe the expression patterns of individual genes in both Tregs and effector T cells in the first 6 hours following stimulation.
+</br>If you use any information for a specific gene generated from our work, please cite the original paper <i>(Feng He et al, 2012, Molecular Systems Biology).</i> </br>
+
+ </br> <b>Please input the symbol of the gene you are interested in. Of note, one gene per each run.</b> </font></p>
 <%=form_tag({:controller => "genes",:action => "search"}, :method =>"get") do%>
     <div class="ui-widget">
     <%= text_field_tag(:search_string)%>
     <%= submit_tag("Search", :id=>"search_but")%></div>
    <div> <%if @gene%>
-    <p style="float:left"><h2>Gene Data</h2> </p>
+    <p style="float:left"></p>
     <%= render :partial => "gene", :locals=>{:gene=>@gene}%>
     <%end%></div>
    <div> <%if @network%>
