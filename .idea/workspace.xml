@@ -12,7 +12,7 @@
     <file path="/genes_controller.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364836873057" ignored="false" />
     <file path="/application.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1369760210637" ignored="false" />
     <file path="/routes.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1367316874660" ignored="false" />
-    <file path="/_network.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1369764734423" ignored="false" />
+    <file path="/_network.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1369765754139" ignored="false" />
     <file path="/_gene.html.erb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1369518832163" ignored="false" />
     <file path="/3.11.8'" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364828733224" ignored="false" />
     <file path="/gene_repository.rb" changelist="3818dc39-4e2c-4a10-b165-dc33e45ed2ee" time="1364836785185" ignored="false" />
@@ -139,7 +139,7 @@
       <file leaf-file-name="_network.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="42" selection-start="5583" selection-end="5583" vertical-scroll-proportion="0.8792899">
+            <state line="59" column="30" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.31597632">
               <folding />
             </state>
           </provider>
@@ -841,7 +841,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="42" selection-start="5583" selection-end="5583" vertical-scroll-proportion="0.8792899">
+        <state line="59" column="30" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.31597632">
           <folding />
         </state>
       </provider>
