@@ -82,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="38" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.0">
+            <state line="44" column="7" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.5660161">
               <folding />
             </state>
           </provider>
@@ -109,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_network.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_network.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="32" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.295858">
+            <state line="220" column="32" selection-start="7237" selection-end="7237" vertical-scroll-proportion="-80.23077">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -175,13 +175,13 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/genes/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/genes/_gene.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/app/views/genes/_network.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -814,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="82" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
@@ -846,11 +839,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="32" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.295858">
+        <state line="220" column="32" selection-start="7237" selection-end="7237" vertical-scroll-proportion="-80.23077">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="7" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.5660161">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -42,6 +42,4 @@
 //= require DataTables-1.9.4/extras/TableTools/media/js/ZeroClipboard
 //= require DataTables-1.9.4/extras/TableTools/media/js/TableTools
 
-//=require jquery.mousewheel.min.js
-//=require jquery.tagsphere.js
 
