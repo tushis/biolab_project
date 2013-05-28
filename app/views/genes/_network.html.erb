@@ -55,10 +55,11 @@
         } );
 
         if(net.length>0)  {
+            $("#title").append("<h2>List of interactions for "+net[0].symbol1+"</h2>");
             json='{ "id":"'+ net[0].id1+'" ,"name":"'+ net[0].symbol1+'", "children":[';
 
-            var l=net.length;
-            if(net.length<50){
+            var l=100;
+            if(net.length<100){
                 l=net.length;
             }
             for(i=0; i<l; i++){
@@ -70,9 +71,14 @@
             json= $.parseJSON(json);
             onLoad();
         }// end if
+
+
+
+
+
     } );
     function onLoad() {
-
+        $("#graph").append("<h2>The interaction network</h2>");
         var w=900;
         var h=500;
         var ht = new $jit.Hypertree({
@@ -158,9 +164,7 @@
 
 </script>
 <div style="margin-top: 1%;">
-  <% if @network.size>0 %>
-      <h2>List of interactions for <%=network.at(1).symbol1%></h2>
-  <% end %>
+  <div id="title"></div>
   <table id="gene_network_tbl" class="display">
     <thead>
     <tr>
@@ -182,4 +186,4 @@
     </tbody>
   </table>
 </div>
-<div onload="onLoad()" id="infovis"></div>
+<div onload="onLoad()" id="infovis"> <div id="graph"></div></div>
