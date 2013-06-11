@@ -1,38 +1,9 @@
-<style type="text/css">
-        /* style for the visualization container */
-    #infovis {
-        width: 900px;
-        height: 500px;
-        background-color: white;
-    }
-
-        /* style for node labels */
-    .node {
-        color: black;
-        background-color: transparent;
-        cursor: pointer;
-        font-weight: bold;
-        opacity :0.9;
-    }
-
-    .node:hover {
-        cursor: pointer;
-        color: black;
-        background-color: white;
-        font-weight: bold;
-        opacity: 1;
-    }
-</style>
-
 <script>
-
-
     var net=<%=@network.to_json.html_safe%>
-    var json;
-
+    var i;
 
     $(document).ready( function () {
-
+        i=0;
         $('#gene_network_tbl').dataTable( {
             "sDom": "T<'clear'><'H'lfr>t<'F'ip>",
             "bJQueryUI": true,
@@ -53,118 +24,53 @@
 
             }
         } );
+        var count= <%=@network.size%> ;
 
-        if(net.length>0)  {
-            $("#title").append("<h2>List of interactions for "+net[0].symbol1+"</h2>");
-            json='{ "id":"'+ net[0].id1+'" ,"name":"'+ net[0].symbol1+'", "children":[';
+        if( count<1500 )
+        {
+            $.each(net,function(index, value){
+                $("#cloud_content").append("<li><a href='#' rel='20'>"+value.symbol2+"</a></li>");
+                i++;
+            });
+            if(i<100) {
+                $('#cloud').tagcloud({centrex:250,centrey:250,min_font_size: 8,
+                    max_font_size: 10, random_points: 50, zoom: 75, min_zoom: 10,
+                    max_zoom: 100, zoom_factor: 2  });
 
-            var l=100;
-            if(net.length<100){
-                l=net.length;
+
             }
-            for(i=0; i<l; i++){
-                json +='{"id": "'+ net[i].id2+'","name": "'+ net[i].symbol2+ '", "data":[], "children":[]}, ';
+
+            if(i>150 && i<500)  {
+                $('#cloud').tagcloud({centrex:400,centrey:400,min_font_size: 8,
+                    max_font_size: 10, random_points: 50, zoom: 75, min_zoom: 10,
+                    max_zoom: 100, zoom_factor: 2  });
+                $('#cloud').css('background-color', '#FFFFFF');
+                $('#cloud').dialog({ width: 850, height:850 });
             }
-            json=json.substring(0, json.length -2);
-            json+='], "data":[]}';
+            if(i>500 && i<1300)  {
+                $('#cloud').tagcloud({centrex:800,centrey:800,min_font_size: 8,
+                    max_font_size: 10, random_points: 50, zoom: 75, min_zoom: 10,
+                    max_zoom: 100, zoom_factor: 2  });
+                $('#cloud').hide();
+                $('#link').append("<a href='#' onclick='network()'>Network visualization(might take time for building because of the size of the network)</a>");
 
-            json= $.parseJSON(json);
-            onLoad();
-        }// end if
-
-
-
+            }
+        }
 
 
     } );
-    function onLoad() {
-        $("#graph").append("<h2>The interaction network</h2>");
-        var w=900;
-        var h=500;
-        var ht = new $jit.Hypertree({
-            //id of the visualization container
-            injectInto: 'infovis',
-            //canvas width and height
-            width: w,
-            height: h,
-            //Change node and edge styles such as
-            //color, width and dimensions.
-            Node: {
-                dim: 9,
-                color: "#f00"
-            },
-            Edge: {
-                lineWidth: 2,
-                color: "#088"
-            },
-            onBeforeCompute: function(node){
-                Log.write("centering");
-            },
-            //Attach event handlers and add text to the
-            //labels. This method is only triggered on label
-            //creation
-            onCreateLabel: function(domElement, node){
-                domElement.innerHTML = node.name;
-                //$jit.util.addEvent(domElement, 'click', function () {
-                //ht.onClick(node.id, {
-                // onComplete: function() {
-                //   ht.controller.onComplete();
-                //}
-                //});
-                //});
-            },
-            //Change node styles when labels are placed
-            //or moved.
-            onPlaceLabel: function(domElement, node){
-                var style = domElement.style;
-                style.display = '';
-                style.cursor = 'pointer';
-                if (node._depth <= 1) {
-                    style.fontSize = "0.7em";
-                    style.color = "black";
+    function network(){
 
-                } else if(node._depth == 2){
-                    style.fontSize = "0.7em";
-                    style.color = "#555";
-
-                } else {
-                    style.display = 'none';
-                }
-
-                var left = parseInt(style.left);
-                var w = domElement.offsetWidth;
-                style.left = (left - w / 2) + 'px';
-            },
-
-            onComplete: function(){
-                Log.write("done");
-
-                //Build the right column relations list.
-                //This is done by collecting the information (stored in the data property)
-                //for all the nodes adjacent to the centered node.
-                var node = ht.graph.getClosestNodeToOrigin("current");
-                var html = "<h4>" + node.name + "</h4><b>Connections:</b>";
-                html += "<ul>";
-                node.eachAdjacency(function(adj){
-                    var child = adj.nodeTo;
-                    if (child.data) {
-                        var rel = (child.data.band == node.name) ? child.data.relation : node.data.relation;
-                        html += "<li>" + child.name + " " + "<div class=\"relation\">(relation: " + rel + ")</div></li>";
-                    }
-                });
-                html += "</ul>";
-                $jit.id('inner-details').innerHTML = html;
-            }
-        });
-//load JSON data.
-        ht.loadJSON(json);
-//compute positions and plot.
-        ht.refresh();
+        $('#cloud').css('background-color', '#FFFFFF');
+        $('#cloud').dialog({ width: 850, height:850 });
+        $('#cloud').show();
     }
 
 </script>
 <div style="margin-top: 1%;">
-  <div id="title"></div>
+  <% if @network.size>0 %>
+      <h2>List of interactions for <%=network.at(1).symbol1%></h2>
+  <% end %>
   <table id="gene_network_tbl" class="display">
     <thead>
     <tr>
@@ -186,4 +92,11 @@
     </tbody>
   </table>
 </div>
-<div onload="onLoad()" id="infovis"> <div id="graph"></div></div>
+<h2>The interaction network</h2>
+<div id="link"></div>
+<div id="cloud" style="width:550px; height:550px;position:relative; overflow: auto; margin: 0px; padding: 0px;">
+  <ul id="cloud_content">  </ul>
+</div>
+
+</div>
+

@@ -57,5 +57,6 @@ module BiolabProject
     config.assets.paths << Rails.root.join("public", "assets")
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    config.action_view.javascript_expansions[:defaults]=%w(jquery)  #automatically load jquery with each page
   end
 end
