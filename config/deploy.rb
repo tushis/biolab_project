@@ -64,10 +64,7 @@ namespace :bundler do
     run "cd #{release_path} && bundle install --production"
   end
 
-  task :assets_precompile do
-    run "ln -s #{shared_path}/assets #{release_path}/public/assets"
-    run "cd #{release_path} && RAILS_ENV=production bundle exec rake assets:precompile"
-  end
+
 end
 
 after 'deploy:update_code', 'bundler:symlink_bundled_gems'
