@@ -102,17 +102,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="376" selection-end="376" vertical-scroll-proportion="-10.461538">
+            <state line="7" column="118" selection-start="98" selection-end="289" vertical-scroll-proportion="0.1408284">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rails.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rails.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/rails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="59" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -125,8 +134,31 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="102" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-28.576923">
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <marker date="1370994471014" expanded="true" signature="7:2385" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="100:2201" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="157:806" placeholder="{&quot;sDom&quot;: &quot;T&lt;'clear'&gt;&lt;'H'lfr&gt;t&lt;'F'ip&gt;&quot;...}" />
+                <marker date="1370994471014" expanded="true" signature="345:796" placeholder="{&quot;sSwfPath&quot;: 'assets/DataTables-1.9.4/extras/TableTools/media/swf/copy_csv_xls_pdf.swf'...}" />
+                <marker date="1370994471014" expanded="true" signature="479:781" placeholder="[...]" />
+                <marker date="1370994471014" expanded="true" signature="501:622" placeholder="{&quot;sExtends&quot;: &quot;xls&quot;...}" />
+                <marker date="1370994471014" expanded="true" signature="644:763" placeholder="{&quot;sExtends&quot;: &quot;pdf&quot;...}" />
+                <marker date="1370994471014" expanded="true" signature="884:2193" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="931:1066" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="1091:1325" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="1130:1307" placeholder="{&quot;centrex&quot;: 250...}" />
+                <marker date="1370994471014" expanded="true" signature="1359:1719" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="1398:1575" placeholder="{&quot;centrex&quot;: 400...}" />
+                <marker date="1370994471014" expanded="true" signature="1753:2183" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="1792:1969" placeholder="{&quot;centrex&quot;: 800...}" />
+                <marker date="1370994471014" expanded="true" signature="2227:2375" placeholder="{...}" />
+                <marker date="1370994471014" expanded="true" signature="2399:2414" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="2415:2996" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="2569:2989" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="2581:2747" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="2590:2734" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="2759:2978" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="2801:2951" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="3076:3163" placeholder="..." />
+                <marker date="1370994471014" expanded="true" signature="3164:3204" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -147,15 +179,6 @@
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="66" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="37" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -322,6 +345,114 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataTables-1.9.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataTables-1.9.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataTables-1.9.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataTables-1.9.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biolab_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -437,10 +568,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -461,24 +588,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biolab_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biolab_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -745,13 +854,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.6713615" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21771611" sideWeight="0.67296994" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21771611" sideWeight="0.67296994" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -830,11 +939,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="36" selection-start="4" selection-end="1087" vertical-scroll-proportion="0.58553386" />
@@ -886,8 +990,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-28.576923">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <marker date="1370994471014" expanded="true" signature="7:2385" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="100:2201" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="157:806" placeholder="{&quot;sDom&quot;: &quot;T&lt;'clear'&gt;&lt;'H'lfr&gt;t&lt;'F'ip&gt;&quot;...}" />
+            <marker date="1370994471014" expanded="true" signature="345:796" placeholder="{&quot;sSwfPath&quot;: 'assets/DataTables-1.9.4/extras/TableTools/media/swf/copy_csv_xls_pdf.swf'...}" />
+            <marker date="1370994471014" expanded="true" signature="479:781" placeholder="[...]" />
+            <marker date="1370994471014" expanded="true" signature="501:622" placeholder="{&quot;sExtends&quot;: &quot;xls&quot;...}" />
+            <marker date="1370994471014" expanded="true" signature="644:763" placeholder="{&quot;sExtends&quot;: &quot;pdf&quot;...}" />
+            <marker date="1370994471014" expanded="true" signature="884:2193" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="931:1066" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="1091:1325" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="1130:1307" placeholder="{&quot;centrex&quot;: 250...}" />
+            <marker date="1370994471014" expanded="true" signature="1359:1719" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="1398:1575" placeholder="{&quot;centrex&quot;: 400...}" />
+            <marker date="1370994471014" expanded="true" signature="1753:2183" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="1792:1969" placeholder="{&quot;centrex&quot;: 800...}" />
+            <marker date="1370994471014" expanded="true" signature="2227:2375" placeholder="{...}" />
+            <marker date="1370994471014" expanded="true" signature="2399:2414" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="2415:2996" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="2569:2989" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="2581:2747" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="2590:2734" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="2759:2978" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="2801:2951" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="3076:3163" placeholder="..." />
+            <marker date="1370994471014" expanded="true" signature="3164:3204" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -929,16 +1056,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/rails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="376" selection-end="376" vertical-scroll-proportion="-10.461538">
+        <state line="7" column="59" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/rails.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="118" selection-start="98" selection-end="289" vertical-scroll-proportion="0.1408284">
           <folding />
         </state>
       </provider>
