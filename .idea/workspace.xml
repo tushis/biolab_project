@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="0" selection-start="5030" selection-end="5030" vertical-scroll-proportion="0.9609644">
+            <state line="228" column="0" selection-start="5030" selection-end="5030" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,36 +138,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_network.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_network.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-28.576923">
+            <state line="12" column="29" selection-start="376" selection-end="376" vertical-scroll-proportion="0.24142012">
               <folding>
-                <marker date="1370994471014" expanded="true" signature="7:2385" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="100:2201" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="157:806" placeholder="{&quot;sDom&quot;: &quot;T&lt;'clear'&gt;&lt;'H'lfr&gt;t&lt;'F'ip&gt;&quot;...}" />
-                <marker date="1370994471014" expanded="true" signature="345:796" placeholder="{&quot;sSwfPath&quot;: 'assets/DataTables-1.9.4/extras/TableTools/media/swf/copy_csv_xls_pdf.swf'...}" />
-                <marker date="1370994471014" expanded="true" signature="479:781" placeholder="[...]" />
-                <marker date="1370994471014" expanded="true" signature="501:622" placeholder="{&quot;sExtends&quot;: &quot;xls&quot;...}" />
-                <marker date="1370994471014" expanded="true" signature="644:763" placeholder="{&quot;sExtends&quot;: &quot;pdf&quot;...}" />
-                <marker date="1370994471014" expanded="true" signature="884:2193" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="931:1066" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="1091:1325" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="1130:1307" placeholder="{&quot;centrex&quot;: 250...}" />
-                <marker date="1370994471014" expanded="true" signature="1359:1719" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="1398:1575" placeholder="{&quot;centrex&quot;: 400...}" />
-                <marker date="1370994471014" expanded="true" signature="1753:2183" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="1792:1969" placeholder="{&quot;centrex&quot;: 800...}" />
-                <marker date="1370994471014" expanded="true" signature="2227:2375" placeholder="{...}" />
-                <marker date="1370994471014" expanded="true" signature="2399:2414" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="2415:2996" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="2569:2989" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="2581:2747" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="2590:2734" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="2759:2978" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="2801:2951" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="3076:3163" placeholder="..." />
-                <marker date="1370994471014" expanded="true" signature="3164:3204" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,10 +191,10 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/genes/_network.html.erb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/app/views/genes/_network.html.erb" />
       </list>
     </option>
   </component>
@@ -920,13 +897,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.6713615" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21771611" sideWeight="0.67296994" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21771611" sideWeight="0.67296994" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1045,39 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3215" selection-end="3215" vertical-scroll-proportion="-28.576923">
-          <folding>
-            <marker date="1370994471014" expanded="true" signature="7:2385" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="100:2201" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="157:806" placeholder="{&quot;sDom&quot;: &quot;T&lt;'clear'&gt;&lt;'H'lfr&gt;t&lt;'F'ip&gt;&quot;...}" />
-            <marker date="1370994471014" expanded="true" signature="345:796" placeholder="{&quot;sSwfPath&quot;: 'assets/DataTables-1.9.4/extras/TableTools/media/swf/copy_csv_xls_pdf.swf'...}" />
-            <marker date="1370994471014" expanded="true" signature="479:781" placeholder="[...]" />
-            <marker date="1370994471014" expanded="true" signature="501:622" placeholder="{&quot;sExtends&quot;: &quot;xls&quot;...}" />
-            <marker date="1370994471014" expanded="true" signature="644:763" placeholder="{&quot;sExtends&quot;: &quot;pdf&quot;...}" />
-            <marker date="1370994471014" expanded="true" signature="884:2193" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="931:1066" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="1091:1325" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="1130:1307" placeholder="{&quot;centrex&quot;: 250...}" />
-            <marker date="1370994471014" expanded="true" signature="1359:1719" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="1398:1575" placeholder="{&quot;centrex&quot;: 400...}" />
-            <marker date="1370994471014" expanded="true" signature="1753:2183" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="1792:1969" placeholder="{&quot;centrex&quot;: 800...}" />
-            <marker date="1370994471014" expanded="true" signature="2227:2375" placeholder="{...}" />
-            <marker date="1370994471014" expanded="true" signature="2399:2414" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="2415:2996" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="2569:2989" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="2581:2747" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="2590:2734" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="2759:2978" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="2801:2951" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="3076:3163" placeholder="..." />
-            <marker date="1370994471014" expanded="true" signature="3164:3204" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.tagsphere.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="18" selection-start="2122" selection-end="2133" vertical-scroll-proportion="0.0">
@@ -1090,13 +1034,6 @@
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="1" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="29" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1138,8 +1075,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="0" selection-start="5030" selection-end="5030" vertical-scroll-proportion="0.9609644">
+        <state line="228" column="0" selection-start="5030" selection-end="5030" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="29" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/genes/_network.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="376" selection-end="376" vertical-scroll-proportion="0.24142012">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
