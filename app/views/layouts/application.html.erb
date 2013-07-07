@@ -2,29 +2,208 @@
 <html>
 <head>
   <title>LCSB - Luxembourg Centre for Systems Biomedicine</title>
-  <%= javascript_include_tag :all %>
-
-  <%= stylesheet_link_tag    :all %>
+  <link href="/stylesheets/example.min.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets//jquery.jqplot.min.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/jquery-ui.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/main.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/index.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/DataTables-1.9.4/extras/TableTools/media/css/TableTools.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/DataTables-1.9.4/extras/TableTools/media/css/TableTools_JUI.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/DataTables-1.9.4/extras/TableTools/media/css/demo_table.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <link href="/stylesheets/DataTables-1.9.4/extras/TableTools/media/css/jquery.dataTables.css?body=1" media="screen" rel="stylesheet" stylesheets="all" type="text/css" />
+  <script src="/javascripts/jquery.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery-ui.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.jqplot.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jqplot.highlighter.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jqplot.cursor.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jqplot.dateAxisRenderer.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jqplot.canvasTextRenderer.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jqplot.canvasAxisLabelRenderer.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/example.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/shCore.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/shBrushJScript.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/shBrushXml.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jit-yc.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.ui.core.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.ui.widget.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.ui.position.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.ui.autocomplete.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.dataTables.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/ZeroClipboard.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/TableTools.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/index.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.mousewheel.min.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/jquery.tagsphere.js?body=1" type="text/javascript"></script>
+  <script src="/javascripts/rails.js?body=1" type="text/javascript"></script>
 
 
 </head>
 <body>
 <div id="all">
-    <div id="wrap">
-        <div id="content" >
-            <div id="header">
-                <%=image_tag('header.png')%>
-             </div>
-            <div id="tables_content">
-             <%= yield %>
+  <div id="wrap">
+    <div id="content" >
+      <div id="header">
+        <%=image_tag('header.png')%>
+      </div>
+      <div id="menu">
+        <ul>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb"><div class="blue_line"></div>Home LCSB</a></li>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb/news_events"><div class="blue_line"></div>News & Events</a></li>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb/vision_mission"><div class="blue_line"></div>Vision & Mission</a></li>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb/research"><div class="blue_line"></div>Research</a></li>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb/publications"><div class="blue_line"></div>Publications</a></li>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb/people"><div class="blue_line"></div>People</a></li>
+          <li class="li_bdr"><a href="http://wwwen.uni.lu/lcsb/education"><div class="blue_line"></div>Education</a></li>
+          <li class="li_bdr"><a href="http://recruitment.uni.lu/en/index.html?LOV1=All&LOV2=6915&LOV3=All&LOV7=All&keywords=&Resultsperpage=10&srcsubmit=Search&statlog=1&ID=QMUFK026203F3VBQB7V7VV4S8&mask=karriereseiten"><div class="blue_line"></div>Open Positions</a></li>
+          <li><a href="http://wwwen.uni.lu/lcsb/contact"><div class="blue_line"></div>Contact</a></li>
+        </ul>
+      </div>
+      <div id="tables_content">
+        <%= yield %>
+      </div>
+
+
+      <div id="footer">
+        <div class="footer1">
+          <div class="unilu">
+            <div class="white_line"></div>
+            <h1><a href="/university">
+              University
+            </a></h1>
+            <a href="/university">
+              The University of Luxembourg is a multilingual, international research university in the Grand Duchy of Luxembourg. The multicultural country is home to the Financial Centre, to European Union Institutions and international enterprises.
+            </a>
+          </div>
+          <div class="newsletter">
+            <div class="white_line"></div>
+            <h1>Newsletter</h1>
+            Subscribe here to our bimonthly newsletter.
+            <!-- <h3>Sign Up text</h3> -->
+
+            <form method="post" action="/newsletter/subscribe">
+
+              <div class="nl_button" style="margin:0;">
+                <input class="button" type="submit" value="Sign Up">
+              </div>
+            </form>
+          </div>
+          <div class="stayconnected">
+            <div class="white_line"></div>
+            <h1>Stay connected</h1>
+            <!-- The University in the media -->
+            <div class="sn_icon">
+              <a href="http://www.facebook.com/uni.lu?ref=share" target="_blank"><img src="/assets/FB_32.png" alt="The University on Facebook" title="The University on Facebook"></a>
+            </div>
+            <div class="sn_icon">
+              <a href="http://twitter.com/#!/uni_lu" target="_blank"><img src="/assets/TW_32.png" alt="The University on Twitter" title="The University on Twitter"></a>
+            </div>
+            <div class="sn_icon">
+              <a href="/universite_du_luxembourg_rss"><img src="/assets/RSS_32.png" alt="University RSS" title="University RSS"></a>
+            </div>
+            <div class="sn_icon">
+              <a href="http://www.youtube.com/user/luxuni" target="_blank"><img src="/assets/YT_32.png" alt="The University on YouTube" title="The University on YouTube"></a>
+            </div>
+            <div class="sn_icon">
+              <a href="http://studyinluxembourg.lu" target="_blank"><img src="/assets/WP_32.png" alt="Study in Luxembourg Blog" title="Study in Luxembourg Blog"></a>
+            </div>
+
+            <div class="sn_icon" style="position:relative; width:200px;">
+              <a href="/the_communications_department/the_university_in_the_media">
+                <img src="assets/media.png" alt="The University in the media" title="The University in the media">
+                <span style="position: absolute; padding: 7px 0px 0px 5px;">The University in the media</span>
+              </a>
+            </div>
+
+            <div class="sn_icon" style="position:relative; width:200px;">
+              <a href="/assets/video_gallery">
+                <img src="/assets/gallerie_video.png" alt="Video Gallery" title="Video Gallery">
+                <span style="position: absolute; padding: 7px 0px 0px 5px;">Video Gallery</span>
+              </a>
             </div>
 
 
-     <div id="footer">
-        <div class="footer1"></div>
-       <div class="footer2"></div>
-     </div></div>
-    </div>
+
+
+          </div>
+          <div class="contacts">
+            <div class="white_line"></div>
+            <h1>Contacts</h1>
+            <ul>
+              <li>
+                <a href="/contact/search_for_a_person">
+                  Search for a person
+                </a>
+              </li>
+              <li>
+                <a href="/contact">
+                  CampusSites
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+        <div class="footer2">
+          <table class="footer">
+            <tbody><tr>
+              <td class="menu">
+                <table>
+                  <tbody><tr>
+                    <td>
+                      <a href="/university">
+                        University</a>
+                    </td>
+                    <td>
+                      <a href="/international">
+                        International</a>
+                    </td>
+                    <td>
+                      <a href="/research">
+                        Research</a>
+                    </td>
+                    <td>
+                      <a href="/centres">
+                        Centres</a>
+                    </td>
+                    <td>
+                      <a href="/faculties">
+                        Faculties</a>
+                    </td>
+                    <td>
+                      <a href="/studies">
+                        Studies</a>
+                    </td>
+                    <td>
+                      <a href="/students">
+                        Students</a>
+                    </td>
+                    <td>
+                      <a href="/contact">
+                        Contact</a>
+                    </td>
+                    <td>|</td>
+                    <td>
+                      <a href="/legal_notice">
+                        Legal notice</a></td>
+                  </tr>
+                  </tbody></table>
+              </td>
+              <td class="copyright">
+                <table>
+                  <tbody><tr>
+                    <td>
+                      Copyright © Université du Luxembourg 2013. All rights reserved
+                     <p>The webpage was designed by Feng He and programmed by Katsiaryna Safronava, 2013</p>
+                    </td>
+                  </tr>
+                  </tbody></table>
+              </td>
+            </tr>
+            </tbody></table>
+        </div>
+      </div></div>
+  </div>
 </div>
 
 </body>

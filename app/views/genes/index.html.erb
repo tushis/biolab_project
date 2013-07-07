@@ -68,25 +68,30 @@
 </script>
 
 <p>
-  <h3>Welcome to the online Treg correlation network</h3>
+<h3>Welcome to the online Treg correlation network</h3>
 <font size="2"> In this website, you can analyze the subnetworks of the individual genes you are interested in.
-</br>You can also directly observe the expression patterns of individual genes in both Tregs and effector T cells in the first 6 hours following stimulation.
-</br>If you use any information for a specific gene generated from our work, please cite the original paper <i>(Feng He et al, 2012, Molecular Systems Biology).</i> </br>
+  </br>You can also directly observe the expression patterns of individual genes in both Tregs and effector T cells in the first 6 hours following stimulation.
+  </br>If you use any information for a specific gene generated from our work, please cite the original paper <i>(<a href="http://www.nature.com/msb/journal/v8/n1/full/msb201256.html">Feng He et al, 2012, Molecular Systems Biology</a>).</i> </br>
 
- </br> <b>Please input the symbol of the gene you are interested in. Of note, one gene per each run.</b> </font></p>
+  </br> <b>Please input the symbol of the gene you are interested in. Of note, one gene per each run.</b> </font></p>
+
 <%=form_tag({:controller => "genes",:action => "search"}, :method =>"get") do%>
+    <% if flash[:error] -%>
+        <p class="error"><%= flash[:error] %></p>
+    <% end -%>
     <div class="ui-widget">
-    <%= text_field_tag(:search_string)%>
-    <%= submit_tag("Search", :id=>"search_but")%></div>
-   <div> <%if @gene%>
-    <p style="float:left"></p>
-    <%= render :partial => "gene", :locals=>{:gene=>@gene}%>
-    <%end%></div>
-   <div> <%if @network%>
-         <p> </p>
-        <%= render :partial => "network", :locals=>{:network=>@network}%>
-    <%end%></div>
-   <%if @th_ori && @th_rep && @treg_ori && @treg_rep%>
+      <%= text_field_tag(:search_string)%>
+      <%= submit_tag("Search", :id=>"search_but")%></div>
+    <div> <%if @gene%>
+          <p style="float:left"></p>
+          <%= render :partial => "gene", :locals=>{:gene=>@gene}%>
+      <%end%></div>
+    <div> <%if @network%>
+          <p> </p>
+          <%= render :partial => "network", :locals=>{:network=>@network}%>
+      <%end%></div>
+    <%if @th_ori && @th_rep && @treg_ori && @treg_rep%>
+        <h2 align='center'>Dynamic expression pattern(s)</h2>
         <%= render :partial => "treg", :locals=>{:th_ori=>@th_ori, :th_rep=>@th_rep, :treg_ori=>@treg_ori, :treg_rep=>@treg_rep}%>
     <%end%>
 
